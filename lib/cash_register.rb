@@ -25,6 +25,7 @@ class CashRegister
  
  def void_last_transaction 
     self.last_transaction  * @total.to_i/100  == @total 
+    @total.to_f 
   end 
 
 
